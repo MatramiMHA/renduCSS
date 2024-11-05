@@ -1,0 +1,28 @@
+nav{
+    background-color: grey;
+    color:white;
+    padding: 1px;
+
+}
+
+ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    
+}
+
+a{
+    color: white;
+
+}
+
+a:link{
+    
+    text-decoration: none;
+}
+#img1{
+    width: 11vh;
+    height:11vh;
+}
