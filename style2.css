@@ -1,0 +1,56 @@
+body{
+    background-color:rgb(141, 103, 109) ;
+    color: white;
+    margin: 0 0 0 0;
+    font-family: "Andika", serif;
+    
+}
+
+nav{
+    background-color:rgba(0, 0, 0, 0.539);
+    ;
+    padding: 4px;
+    border-radius: 5px;
+  
+
+}
+
+ul{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+ 
+
+    
+}
+
+#img1{
+    width: 11vh;
+    height:11vh;
+    padding-right: 100px;
+}
+a{
+    color: white;
+    text-decoration:none;
+    font-size: larger;
+
+}
+footer{
+    background-color:rgba(0, 0, 0, 0.539);
+    ;
+    padding: 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+
+}
+.rseau{
+    width: 40px;
+    height:40px;
+}
+.footer{
+    flex-direction: column;
+    justify-content: left;
+}
