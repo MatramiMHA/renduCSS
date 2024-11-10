@@ -24,6 +24,9 @@ ul{
 
     
 }
+.h2{
+    text-align: center;
+}
 
 #img1{
     width: 11vh;
@@ -36,6 +39,10 @@ a{
     font-size: larger;
 
 }
+a:hover{
+    background-color:cadetblue;    
+}
+
 footer{
     background-color:rgba(0, 0, 0, 0.539);
     ;
@@ -53,4 +60,47 @@ footer{
 .footer{
     flex-direction: column;
     justify-content: left;
+}
+#section1{
+ padding: 40px
+}
+
+.franchises{
+    padding:40px
+}
+.section2{
+    display: flex;
+    padding: 60px;
+}
+h1{
+    font-family: "Assistant", serif;
+    font-weight: bold;
+}
+h2{
+    font-family: "Assistant", serif;
+    font-weight: bold;
+
+}
+h3{
+    font-family: "Assistant", serif;
+    font-weight: bold;
+}
+#text{
+    line-height: 150px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px  rgba(0, 0, 0, 0.226);
+}
+#email{
+    padding-left: 54px ;
+    width: 128px;
+}
+#bouton{
+    width :213px;
+    margin-left: 73px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

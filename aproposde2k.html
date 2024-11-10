@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
     <title>Document</title>
     <link rel="stylesheet" href="style2.css">
     <link href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Assistant:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Assistant:wght@200..800&display=swap"
+        rel="stylesheet">
+        <link rel="icon" type="image/png" href="22K.png" />
 </head>
+
 <body>
     <nav>
 
@@ -21,26 +27,99 @@
             <li><a href="https://store.2k.com/fr">2K Store</a></li>
         </ul>
     </nav><br>
-    <section>
+    <section id="section1">
         <h2>A propos de 2K</h2>
-        <p></p>
+        <p>2K Games est une société américaine de développement et d'édition de jeux vidéo, fondée en 2005 comme une
+            filiale de Take-Two Interactive, l'une des grandes entreprises du secteur. Depuis sa création, 2K Games
+            s’est forgé une réputation en publiant des jeux de haute qualité dans une variété de genres, allant du sport
+            aux jeux de rôle, en passant par les jeux de tir et les jeux de stratégie. Basée en Californie, l'entreprise
+            a rapidement établi une position solide sur le marché international grâce à des franchises populaires et des
+            studios partenaires.</p>
     </section>
+    <section>
+        <div class="h2">
+            <h2>Franchises populaires</h2>
+            <p>Parmi les franchises les plus célèbres de 2K Games, on trouve:</p>
+        </div>
+        <div class="franchises">
 
+            <ul>
+                <li>NBA 2K : Sans doute la franchise la plus connue, NBA 2K est une série de jeux de simulation de
+                    basket-ball. Elle est réputée pour son réalisme, ses graphismes de pointe, et sa fidélité à la
+                    culture du basket. Chaque année, un nouvel opus est lancé avec des améliorations au niveau du
+                    gameplay, des graphismes et des modes de jeu.</li>
+                <li>Borderlands : Développée par Gearbox Software et publiée par 2K, Borderlands est une série de jeux
+                    de tir à la première personne avec des éléments de jeu de rôle, connue pour son humour, son style
+                    artistique en cell-shading et son univers post-apocalyptique unique.</li>
+                <li>BioShock : Bien que la série soit actuellement en pause, BioShock reste l'une des franchises les
+                    plus acclamées de 2K Games. Ce jeu combine une narration immersive et une atmosphère unique avec des
+                    thèmes philosophiques profonds, attirant une grande base de fans depuis sa sortie en 2007.</li>
+                <li>Civilization : Développée par Firaxis Games, la série Sid Meier's Civilization est l'une des séries
+                    de jeux de stratégie au tour par tour les plus célèbres, offrant des expériences de simulation de
+                    civilisation très détaillées.</li>
+
+
+            </ul>
+        </div>
+    </section>
+    <section class="section2">
+        <div>
+         <h3>Studios Affiliés et Partenaires</h3>
+         <p>2K Games collabore avec de nombreux studios talentueux <br>pour produire et affiner ses jeux. Outre Firaxis Games
+            et Gearbox Software, ils possèdent Visual Concepts (responsable de la franchise NBA 2K) et Hangar 13 (connus
+            pour la série Mafia). Ces studios ont permis à 2K Games de diversifier son catalogue tout en maintenant un
+            niveau de qualité élevé, chaque équipe ayant une expertise propre dans son domaine.</p>
+        </div>
+        <div>
+            <h3>Stratégie et Impact dans l'Industrie</h3>
+            <p>2K Games s'impose par une stratégie visant à publier à la fois des jeux annuels dans des franchises sportives
+            et des titres originaux ou occasionnels dans d'autres genres. Cette approche diversifiée leur permet de
+            toucher une audience large et variée. Leur souci du détail, leur engagement dans l'innovation technologique
+            et leur capacité à raconter des histoires captivantes font de 2K Games un acteur de premier plan dans
+            l'industrie du jeu vidéo.</p>
+        </div>
+    </section>
+    <section class="Contact">
+        
+        <form id="contact" action="/inscription" method="post">
+            <h3>Contact</h3>
+            <section class="email"><br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email">
+            </section>
+            <section class="nom">
+                <label for="Message">Message:</label>
+                <input type="text" id="text" name="text"/>         
+            </section>
+            <input type="submit" id="bouton" value="Envoyer">
+         </section><br>
+        </form>
+
+    </section>
     <footer>
         <ul class="footer">
-              <a href=""><li>Accueil</li></a>
-             <a href=""><li>Mentions légales</li></a>
-             <a href=""><li>Politique de confidentialité</li></a>
-             <a href=""><li>Contact</li></a>
-        </ul> 
+            <a href="index.html">
+                <li>Accueil</li>
+            </a>
+            <a href="">
+                <li>Mentions légales</li>
+            </a>
+            <a href="">
+                <li>Politique de confidentialité</li>
+            </a>
+            <a href="#contact">
+                <li>Contact</li>
+            </a>
+        </ul>
         <div>
-             <a href="https://www.facebook.com/?locale=fr_FR"><img class="rseau" src="facebook.png" alt=""></a>
-             <a href="https://www.instagram.com/"><img class="rseau" src="instagram.png" alt=""></a>
-             <a href="https://www.tiktok.com/fr/"><img class="rseau" src="tic-tac.png" alt=""></a>
- 
-        </div> 
- 
-        
-     </footer>
+            <a href="https://www.facebook.com/?locale=fr_FR"><img class="rseau" src="facebook.png" alt=""></a>
+            <a href="https://www.instagram.com/"><img class="rseau" src="instagram.png" alt=""></a>
+            <a href="https://www.tiktok.com/fr/"><img class="rseau" src="tic-tac.png" alt=""></a>
+
+        </div>
+
+
+    </footer>
 </body>
+
 </html>
