@@ -1,3 +1,4 @@
+
 body{
     background:linear-gradient(cadetblue,rgb(141, 103, 109)) ;
     color: white;
@@ -70,7 +71,12 @@ a:hover{
     justify-content: space-around;
    flex-wrap: nowrap;
    width: 90%;
+   padding: 100px 0;
    
+}
+#lien1{
+    padding:0 
+
 }
 p{
     font-size: 20px;    
@@ -85,7 +91,7 @@ p{
     justify-content: space-around;
     flex-wrap: wrap;
     width:90%;
-    padding:100px;
+    padding:45px;
 }
 main{
     padding-left: 46px;
